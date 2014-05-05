@@ -14,7 +14,7 @@ The electronic component of *something golden in the night* consists of sound â€
 
 In order to avoid large amounts of equipment on stage, the following set-up is ideal:
 
-### On-stage:
+### On-stage
 * motorised sculpture, connected to
 * networked laptop running **[01a-networkedmotors-cnsmdp.maxpat](/01a-networkedmotors-cnsmdp.maxpat)**
 * lighting for the sculpture

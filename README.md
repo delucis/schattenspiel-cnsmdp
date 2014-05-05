@@ -48,7 +48,7 @@ If your audio input and output are correctly set up (see `matrix` at bottom-righ
 
 * **00a-schattenspiel-queenbee-cnsmdp.maxpat — main control patch**
 * **01a-networkedmotors-cnsmdp.maxpat — secondary control patch for remote communication with onstage motor**
-* [snd](../snd) folder — sound samples
+* [snd](/snd) folder — sound samples
 * objects folder — copies of objects required for operation of the main patch
 * maxuino_stepper_alpha_011 folder — [Maxuino](http://www.maxuino.org/) software developed by [Chris Coleman](http://www.digitalcoleman.com/) & [Ali Momeni](http://alimomeni.net/)
 * remaining max patches etc. are abstractions used within the primary patch 

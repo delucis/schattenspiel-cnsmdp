@@ -5,8 +5,7 @@ User information for Max patches for *something golden in the night* by Chris Sw
 ## Contents
 
 * Hardware set-up
-* Software set-up
-* Max patch operation
+* Software set-up & Max patch operation
 * Files included
 
 ## Hardware Set-up

@@ -1,4 +1,4 @@
-# README
+# Readme
 
 User information for Max patches for *something golden in the night* by Chris Swithinbank. More information about this work, including video extract: http://www.chrisswithinbank.net/2012/03/something-golden-in-the-night/
 

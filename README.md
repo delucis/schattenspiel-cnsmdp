@@ -16,22 +16,22 @@ In order to avoid large amounts of equipment on stage, the following set-up is i
 
 ### On-stage:
 * motorised sculpture, connected to
-* networked laptop running **01a-networkedmotors-cnsmdp.maxpat**
+* networked laptop running **[01a-networkedmotors-cnsmdp.maxpat](/01a-networkedmotors-cnsmdp.maxpat)**
 * lighting for the sculpture
 
 ### In the audience
-* networked laptop running **00a-schattenspiel-queenbee-cnsmdp.maxpat**
+* networked laptop running **[00a-schattenspiel-queenbee-cnsmdp.maxpat](/00a-schattenspiel-queenbee-cnsmdp.maxpat)**
 * audio hardware: mixing desk etc.
 
-This set-up enables remote control of the sculpture from the master laptop. 00a-schattenspiel-queenbee-cnsmdp.maxpat sends messages over the network to 01a-networkedmotors-cnsmdp.maxpat, which in turn controls the stepper motor via the Arduino’s USB connection.
+This set-up enables remote control of the sculpture from the master laptop. [00a-schattenspiel-queenbee-cnsmdp.maxpat](/00a-schattenspiel-queenbee-cnsmdp.maxpat) sends messages over the network to [01a-networkedmotors-cnsmdp.maxpat](/01a-networkedmotors-cnsmdp.maxpat), which in turn controls the stepper motor via the Arduino’s USB connection.
 
 The audio set-up is comparatively straightforward. A single on-stage loudspeaker provides sound, a clip-on microphone for the saxophone runs the live performance into the main laptop via an audio interface, a simple mixer should suffice to run the output of the main laptop to the on-stage loudspeaker.
 
 ## Software Set-up & Max Patch Operation
 
 1. Ensure the hardware is set up and that the Arduino is powered on.
-2. Launch 01a-networkedmotors-cnsmdp.maxpat on the on-stage laptop
-3. Launch 00a-schattenspiel-queenbee-cnsmdp.maxpat on the main laptop
+2. Launch [01a-networkedmotors-cnsmdp.maxpat](/01a-networkedmotors-cnsmdp.maxpat) on the on-stage laptop
+3. Launch [00a-schattenspiel-queenbee-cnsmdp.maxpat](/00a-schattenspiel-queenbee-cnsmdp.maxpat) on the main laptop
 4. You will need to enter host information in both patches for them to be able to communicate. Determine host (IP) addresses for both machines and enter the address for the main laptop in the on-stage patch. (You will see the entered address appear in grey beside the `udpsend` at the bottom of the patch.) At this point the on-stage patch will with any luck be set-up correctly.
 5. In the main patch, under **Where’s Your Motor?**, select **networked**. Now enter the address for the on-stage laptop in the main laptop patch.
 6. To test the set-up, hit the **If Networked, Hello?** button. If everything is working correctly, a pop-up message should appear reading ‘is it me you’re looking for?’ followed by three random digits.
@@ -46,8 +46,8 @@ If your audio input and output are correctly set up (see `matrix` at bottom-righ
 
 ## Files Included
 
-* **00a-schattenspiel-queenbee-cnsmdp.maxpat — main control patch**
-* **01a-networkedmotors-cnsmdp.maxpat — secondary control patch for remote communication with onstage motor**
+* **[00a-schattenspiel-queenbee-cnsmdp.maxpat](/00a-schattenspiel-queenbee-cnsmdp.maxpat) — main control patch**
+* **[01a-networkedmotors-cnsmdp.maxpat](/01a-networkedmotors-cnsmdp.maxpat) — secondary control patch for remote communication with onstage motor**
 * [snd](/snd) folder — sound samples
 * [objects](/objects) folder — copies of objects required for operation of the main patch
 * [maxuino_stepper_alpha_011](/maxuino_stepper_alpha_011) folder — [Maxuino](http://www.maxuino.org/) software developed by [Chris Coleman](http://www.digitalcoleman.com/) & [Ali Momeni](http://alimomeni.net/)

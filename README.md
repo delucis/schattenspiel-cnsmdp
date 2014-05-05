@@ -51,5 +51,5 @@ If your audio input and output are correctly set up (see `matrix` at bottom-righ
 * [snd](/snd) folder — sound samples
 * [objects](/objects) folder — copies of objects required for operation of the main patch
 * [maxuino_stepper_alpha_011](/maxuino_stepper_alpha_011) folder — [Maxuino](http://www.maxuino.org/) software developed by [Chris Coleman](http://www.digitalcoleman.com/) & [Ali Momeni](http://alimomeni.net/)
-** [stepperFirmata.ino](/maxuino_stepper_alpha_011/stepperFirmata/stepperFirmata.ino) — firmware from Maxuino project to be loaded on to the Arduino
+..* [stepperFirmata.ino](/maxuino_stepper_alpha_011/stepperFirmata/stepperFirmata.ino) — firmware from Maxuino project to be loaded on to the Arduino
 * remaining max patches etc. are abstractions used within the primary patch 

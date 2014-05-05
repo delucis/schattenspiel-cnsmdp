@@ -8,7 +8,7 @@ User information for Max patches for *something golden in the night* by Chris Sw
 * Software set-up
 * Max patch operation
 
-## Hardware set-up
+## Hardware Set-up
 
 The electronic component of *something golden in the night* consists of sound — a mono feed of audio played through a single loudspeaker on stage — and motion — a moving ‘robot’, which contains an Arduino controlling a stepper motor.
 

@@ -7,6 +7,7 @@ User information for Max patches for *something golden in the night* by Chris Sw
 * Hardware set-up
 * Software set-up
 * Max patch operation
+* Files included
 
 ## Hardware Set-up
 
@@ -28,6 +29,7 @@ This set-up enables remote control of the sculpture from the master laptop. 00a-
 The audio set-up is comparatively straightforward. A single on-stage loudspeaker provides sound, a clip-on microphone for the saxophone runs the live performance into the main laptop via an audio interface, a simple mixer should suffice to run the output of the main laptop to the on-stage loudspeaker.
 
 
+## Files Included
 
 * **00a-schattenspiel-queenbee-cnsmdp.maxpat — main control patch**
 * **01a-networkedmotors-cnsmdp.maxpat — secondary control patch for remote communication with onstage motor**

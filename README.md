@@ -6,6 +6,7 @@ User information for Max patches for *something golden in the night* by Chris Sw
 
 * [Hardware set-up](#hardware-set-up)
 * [Software set-up & Max patch operation](#software-set-up--max-patch-operation)
+* [Miscellaneous](#miscellaneous)
 * [Files included](#files-included)
 
 ## Hardware Set-up
@@ -46,6 +47,10 @@ At this point you are ready to set-up communication with the Arduino.
 9. If at this point you wish to check if the motor is correctly connected, you can use the **K** and **L** keys (or click on the left/right arrows in the patch under **Motor Control and Network Communication**) to nudge the motor left or right.
 
 If your audio input and output are correctly set up (see `matrix` at bottom-right of patch), you’re ready to go!
+
+## Miscellaneous
+
+It may be useful to run remote desktop software during rehearsals and performance. Provided the network doesn’t go down, this will allow you to troubleshoot the on-stage laptop from the main laptop.
 
 ## Files Included
 

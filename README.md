@@ -6,6 +6,7 @@ User information for Max patches for *something golden in the night* by Chris Sw
 
 * [Hardware set-up](#hardware-set-up)
 * [Software set-up & Max patch operation](#software-set-up--max-patch-operation)
+* [Performance notes](#performance-notes)
 * [Miscellaneous](#miscellaneous)
 * [Files included](#files-included)
 
@@ -52,6 +53,12 @@ The audio set-up is comparatively straightforward. A single on-stage loudspeaker
 9. If at this point you wish to check if the motor is correctly connected, you can use the **K** and **L** keys (or click on the left/right arrows in the patch under **Motor Control and Network Communication**) to nudge the motor left or right.
 
 If your audio input and output are correctly set up (see `matrix` at bottom-right of patch), you’re ready to go!
+
+## Performance Notes
+
+During the performance of the work, cues are to be triggered from the main laptop operator ***not*** by the saxophonist (via MIDI pedals or whathaveyou). The operator should follow the score (available from the composer) and use the spacebar to trigger the numbered cues (marked in red in the score).
+
+Following cue 30, there is a sequence of automatically triggered cues, running up to 41 inclusive, with cue 42 the first cue after 30 that is to be manually triggered.
 
 ## Miscellaneous
 

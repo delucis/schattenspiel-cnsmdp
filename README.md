@@ -43,7 +43,7 @@ The audio set-up is comparatively straightforward. A single on-stage loudspeaker
 5. In the main patch, under **Where’s Your Motor?**, select **networked**. Now enter the address for the on-stage laptop in the main laptop patch.
 6. To test the set-up, hit the **If Networked, Hello?** button. If everything is working correctly, a pop-up message should appear reading ‘is it me you’re looking for?’ followed by three random digits.
 
-	At this point you are ready to set up communication with the Arduino.
+	*At this point you are ready to set up communication with the Arduino.*
 
 7. Under **Select Serial Port** hit **update** and proceed to select the USB serial port. (If there is more than one, use trial and error to work out which is correct).
 8. You may now hit **Initialise** and turn on the DSP. Checking the **Keyboard Controls** checkbox will allow you to operate the patch from the keyboard.

@@ -8,6 +8,7 @@ User information for Max patches for *something golden in the night* by Chris Sw
 * [Software set-up & Max patch operation](#software-set-up--max-patch-operation)
 * [Performance notes](#performance-notes)
 * [Miscellaneous](#miscellaneous)
+* [Compatibility](#compatibility)
 * [Files included](#files-included)
 
 ## Hardware Set-up

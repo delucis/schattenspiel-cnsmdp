@@ -66,6 +66,10 @@ Following cue 30, there is a sequence of automatically triggered cues, running u
 
 It may be useful to run remote desktop software during rehearsals and performance. Provided the network doesn’t go down, this will allow you to troubleshoot the on-stage laptop from the main laptop.
 
+## Compatibility
+
+This patch has been tested with both Max 6 and 7 on Mac OS X. It should work on Windows, but that hasn’t been tested.
+
 ## Files Included
 
 * **[00a-schattenspiel-queenbee-cnsmdp.maxpat](/00a-schattenspiel-queenbee-cnsmdp.maxpat) — main control patch**

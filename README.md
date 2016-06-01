@@ -36,6 +36,9 @@ The audio set-up is comparatively straightforward. A single on-stage loudspeaker
 ### Unpacking the motorised sculpture
 ![Unpacking the motorised sculpture animated GIF](docs/unpacking.gif)
 
+### Plugging into the motorised sculpture
+![Plugging into the motorised sculpture animated GIF](docs/box-plugging.gif)
+
 ### Packing up the motorised sculpture
 ![Packing up the motorised sculpture animated GIF](docs/packing-up.gif)
 

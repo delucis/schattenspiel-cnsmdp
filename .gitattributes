@@ -1,3 +1,4 @@
 docs/packing-up-gif-src.png filter=lfs diff=lfs merge=lfs -text
 docs/unpacking-gif-src.png filter=lfs diff=lfs merge=lfs -text
 docs/box-plugging-gif-src.png filter=lfs diff=lfs merge=lfs -text
+*-gif-src.png filter=lfs diff=lfs merge=lfs -text

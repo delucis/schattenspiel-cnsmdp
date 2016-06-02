@@ -39,21 +39,29 @@ The audio set-up is comparatively straightforward. A single on-stage loudspeaker
 
 ## Software Set-up & Max Patch Operation
 
-1. Ensure the hardware is set up and that the Arduino is powered on.
-2. Launch [01a-networkedmotors-cnsmdp.maxpat](/01a-networkedmotors-cnsmdp.maxpat) on the on-stage laptop
-3. Launch [00a-schattenspiel-queenbee-cnsmdp.maxpat](/00a-schattenspiel-queenbee-cnsmdp.maxpat) on the main laptop
-4. You will need to enter host information in both patches for them to be able to communicate. Determine host (IP) addresses for both machines and enter the address for the main laptop in the on-stage patch. (You will see the entered address appear in grey beside the `udpsend` at the bottom of the patch.) At this point the on-stage patch will with any luck be set-up correctly.
+1. Add the `schattenspiel-cnsmdp` directory to Max’s search path under **File Preferences…** (in the **Options** menu).
+
+2. Ensure the hardware is set up and that the Arduino is powered on.
+
+3. Launch [`01a-networkedmotors-cnsmdp.maxpat`](/01a-networkedmotors-cnsmdp.maxpat) on the on-stage laptop.
+
+4. Launch [`00a-schattenspiel-queenbee-cnsmdp.maxpat`](/00a-schattenspiel-queenbee-cnsmdp.maxpat) on the main laptop.
+
+5. You will need to enter host information in both patches for them to be able to communicate. Determine host (IP) addresses for both machines and enter the address for the main laptop in the on-stage patch. (You will see the entered address appear in grey beside the `udpsend` at the bottom of the patch.) At this point the on-stage patch will with any luck be set-up correctly.
 
 	*For the following steps you can also use the ‘Set-up Helper’, which you will find in the bottom-left corner of the main patch. It will provide short hints and take you through the correct set-up sequence.*
 
-5. In the main patch, under **Where’s Your Motor?**, select **‘networked’**. Now enter the address for the on-stage laptop in the main laptop patch (under **If Networked, Host**).
-6. To test the set-up, hit the **If Networked, Hello?** button. If everything is working correctly, a pop-up message should appear reading ‘is it me you’re looking for?’ followed by three randomly generated digits (clicking multiple times should show changing digits, indicating communication from the on-stage laptop).
+6. In the main patch, under **Where’s Your Motor?**, select **‘networked’**. Now enter the address for the on-stage laptop in the main laptop patch (under **If Networked, Host**).
+
+7. To test the set-up, hit the **If Networked, Hello?** button. If everything is working correctly, a pop-up message should appear reading ‘is it me you’re looking for?’ followed by three randomly generated digits (clicking multiple times should show changing digits, indicating communication from the on-stage laptop).
 
 	*At this point you are ready to set up communication with the Arduino.*
 
-7. Under **Select Serial Port** hit **‘update’** and proceed to select the USB serial port. (If there is more than one, use trial and error to work out which is correct).
-8. You may now hit **Initialise** and turn on the DSP. Checking the **Keyboard Controls** checkbox will allow you to operate the patch from the keyboard.
-9. If at this point you wish to check if the motor is correctly connected, you can use the **K** and **L** keys (or click on the left/right arrows in the patch under **Motor Control and Network Communication**) to nudge the motor left or right.
+8. Under **Select Serial Port** hit **‘update’** and proceed to select the USB serial port. (If there is more than one, use trial and error to work out which is correct).
+
+9. You may now hit **Initialise** and turn on the DSP. Checking the **Keyboard Controls** checkbox will allow you to operate the patch from the keyboard.
+
+10. If at this point you wish to check if the motor is correctly connected, you can use the **K** and **L** keys (or click on the left/right arrows in the patch under **Motor Control and Network Communication**) to nudge the motor left or right.
 
 If your audio input and output are correctly set up (see `matrix` at bottom-right of patch), you’re ready to go!
 

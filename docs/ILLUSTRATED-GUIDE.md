@@ -1,4 +1,4 @@
-# Animated Guide
+# Illustrated Set Up Guide
 
 
 ## Unpacking the motorised sculpture

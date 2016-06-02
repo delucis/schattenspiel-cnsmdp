@@ -19,16 +19,16 @@ In order to avoid large amounts of equipment on stage, the following set-up is i
 
 ### On-stage
 * motorised sculpture, connected to
-* networked laptop running **[01a-networkedmotors-cnsmdp.maxpat](/01a-networkedmotors-cnsmdp.maxpat)**
+* networked laptop running [`01a-networkedmotors-cnsmdp.maxpat`](/01a-networkedmotors-cnsmdp.maxpat)
 * lighting for the sculpture
 * single loudspeaker (hidden behind/below or as close as possible to the sculpture)
 * clip-on saxophone microphone
 
 ### In the audience
-* networked laptop running **[00a-schattenspiel-queenbee-cnsmdp.maxpat](/00a-schattenspiel-queenbee-cnsmdp.maxpat)**
+* networked laptop running [`00a-schattenspiel-queenbee-cnsmdp.maxpat`](/00a-schattenspiel-queenbee-cnsmdp.maxpat)
 * audio hardware: mixing desk, audio interface etc.
 
-This set-up enables remote control of the sculpture from the master laptop. [00a-schattenspiel-queenbee-cnsmdp.maxpat](/00a-schattenspiel-queenbee-cnsmdp.maxpat) sends messages over the network to [01a-networkedmotors-cnsmdp.maxpat](/01a-networkedmotors-cnsmdp.maxpat), which in turn controls the stepper motor via the Arduino’s USB connection.
+This set-up enables remote control of the sculpture from the master laptop. [`00a-schattenspiel-queenbee-cnsmdp.maxpat`](/00a-schattenspiel-queenbee-cnsmdp.maxpat) sends messages over the network to [`01a-networkedmotors-cnsmdp.maxpat`](/01a-networkedmotors-cnsmdp.maxpat), which in turn controls the stepper motor via the Arduino’s USB connection.
 
 The audio set-up is comparatively straightforward. A single on-stage loudspeaker provides sound, a clip-on microphone for the saxophone runs the live performance into the main laptop via an audio interface, a simple mixer should suffice to run the output of the main laptop to the on-stage loudspeaker.
 
@@ -83,10 +83,10 @@ This patch has been tested with both Max 6 and 7 on Mac OS X. It should work on 
 
 ## Files Included
 
-* **[00a-schattenspiel-queenbee-cnsmdp.maxpat](/00a-schattenspiel-queenbee-cnsmdp.maxpat) — main control patch**
-* **[01a-networkedmotors-cnsmdp.maxpat](/01a-networkedmotors-cnsmdp.maxpat) — secondary control patch for remote communication with onstage motor**
-* [snd](/snd) folder — sound samples
-* [objects](/objects) folder — copies of objects required for operation of the main patch
-* [maxuino_stepper_alpha_011](/maxuino_stepper_alpha_011) folder — [Maxuino](http://www.maxuino.org/) software developed by [Chris Coleman](http://www.digitalcoleman.com/) & [Ali Momeni](http://alimomeni.net/)
-	* [stepperFirmata.ino](/maxuino_stepper_alpha_011/stepperFirmata/stepperFirmata.ino) — firmware from Maxuino project to be loaded on to the Arduino
+* **[`00a-schattenspiel-queenbee-cnsmdp.maxpat`](/00a-schattenspiel-queenbee-cnsmdp.maxpat) — main control patch**
+* **[`01a-networkedmotors-cnsmdp.maxpat`](/01a-networkedmotors-cnsmdp.maxpat) — secondary control patch for remote communication with onstage motor**
+* [`snd`](/snd) folder — sound samples
+* [`objects`](/objects) folder — copies of objects required for operation of the main patch
+* [`maxuino_stepper_alpha_011`](/maxuino_stepper_alpha_011) folder — [Maxuino](http://www.maxuino.org/) software developed by [Chris Coleman](http://www.digitalcoleman.com/) & [Ali Momeni](http://alimomeni.net/)
+	* [`stepperFirmata.ino`](/maxuino_stepper_alpha_011/stepperFirmata/stepperFirmata.ino) — firmware from Maxuino project to be loaded on to the Arduino
 * remaining max patches etc. are abstractions used within the primary patch

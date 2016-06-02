@@ -34,7 +34,7 @@ The audio set-up is comparatively straightforward. A single on-stage loudspeaker
 
 (N.B. In most cases the motorised component is to be provided by the composer. This includes Arduino and USB cable to connect with the laptop. If someone is interested in building their own version, they should note that the patch is hardcoded to work with a stepper motor connected to an Arduino’s pins 12 & 13 via an [EasyDriver board](http://www.schmalzhaus.com/EasyDriver/) where pin 12 is connected to the EasyDriver’s speed input and pin 13 to the ED’s step input. [SparkFun sells the EasyDriver](https://www.sparkfun.com/products/10267).)
 
-[_See the animated set-up guide._](docs/ANIMATED-GUIDE.md)
+[_See the animated set-up guide._](docs/ILLUSTRATED-GUIDE.md)
 
 
 ## Software Set-up & Max Patch Operation

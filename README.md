@@ -39,6 +39,8 @@ The audio set-up is comparatively straightforward. A single on-stage loudspeaker
 
 ## Software Set-up & Max Patch Operation
 
+_**N.B. These instructions are for a remote controlled onstage laptop and a controlling front-of-house laptop as described above.**_
+
 1. Add the `schattenspiel-cnsmdp` directory to Max’s search path under **File Preferences…** (in the **Options** menu).
 
 2. Ensure the hardware is set up and that the Arduino is powered on.
